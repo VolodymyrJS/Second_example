@@ -1,0 +1,74 @@
+<section class="main__section">
+  <h3 class="main__h3">
+    Task 1: Convert the following image to HTML/CSS/JS. Make it responsive
+    using your best judgment. The font used in the design is Montserrat
+    from Google Fonts. Please create Tabs navigation with vanilla JS. In
+    BUY FONTS tab show dummy text that is centered by both axis. For Cards
+    component, add Radio button group behavior without javascript. Style
+    Card with 50% opacity when this has an active state.
+    <p class="main__req">Coding standards: BEM naming convention</p>
+    <p class="main__req">html, css, js: twig, sass, vanilla javascript</p>
+  </h3>
+  <div class="container">
+    <h2 class="container__title">Please select one font</h2>
+    <ul class="container__tabs">
+      <li class="container__items container__items--active">
+        <a class="container__link" href="#my--fonts">my fonts</a>
+      </li>
+      <li class="container__items">
+        <a class="container__link" href="#by--fonts">by fonts</a>
+      </li>
+    </ul>
+    <div class="container__items--active tab--content  my--fonts">
+      <div class="container__items--active__left">
+        <div class="container__items--active__main-wrapper">
+          <div class="container__items--active__square container__items--active__square--one">
+            <canvas class="container__items--active__first-canvas" height="30" width="50"></canvas>
+          </div>
+        </div>
+        <div class="container__items--active__radio-label">
+          <input checked type="radio" class="container__items--active__font" name="font" />
+          <label class="container__items--active__label" for="container__items--active__font">
+            Merriweather
+          </label>
+        </div>
+      </div>
+      <div class="container__items--active__right">
+          <div class="container__items--active__wrapper">
+            <div class="container__items--active__square container__items--active__square--two">
+              <canvas class="container__items--active__second-canvas" height="30" width="50"></canvas>
+            </div>
+          </div>
+          <div class="container__items--active__radio-label container__items--active__radio-label--align-items-top">
+            <input type="radio" class="container__items--active__font" name="font" />
+            <label class="container__items--active__label" for="container__items--active__font">
+              Roboto
+            </label>
+          </div>
+        <div>
+          <div class="container__items--active__wrapper">
+            <div class="container__items--active__square container__items--active__square--three">
+              <canvas class="container__items--active__third-canvas" height="30" width="50"></canvas>
+            </div>
+          </div>
+          <div class="container__items--active__radio-label container__items--active__radio-label--align-items-bottom">
+            <input type="radio" class="container__items--active__font" name="font" />
+            <label class="container__items--active__label" for="container__items--active__font">
+              Noto Sans
+            </label>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="tab--content by--fonts">
+      <section>
+        <h2>Choose the font</h2>
+        <div>
+          <p>Roboto</p>
+          <p>Monospase</p>
+          <p>Arial</p>
+        </div>
+      </section>
+    </div>
+  </div>
+</section>

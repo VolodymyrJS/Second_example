@@ -1,0 +1,58 @@
+{
+  "name": "ffw",
+  "version": "1.0.0",
+  "description": "BEM, TwigJS, vanilla js, SASS, GIT",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --open --mode development",
+    "build": "webpack --mode production"
+  },
+  "browserslist": [
+    " > 1%",
+    "last 3 version"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaPrikole/FFW-2.0.0.git"
+  },
+  "keywords": [
+    "Twig",
+    "JS",
+    "SASS",
+    "BEM"
+  ],
+  "author": "Volodymyr Ponomarenko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NaPrikole/FFW-2.0.0/issues"
+  },
+  "homepage": "https://github.com/NaPrikole/FFW-2.0.0#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/node": "^7.5.5",
+    "@babel/polyfill": "^7.4.4",
+    "@babel/preset-env": "^7.5.5",
+    "autoprefixer": "^9.6.1",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^24.9.0",
+    "babel-loader": "^7.1.5",
+    "css-loader": "^3.2.0",
+    "css-mqpacker": "^7.0.0",
+    "cssnano": "^4.1.10",
+    "jest": "^24.9.0",
+    "mini-css-extract-plugin": "^0.8.0",
+    "node-sass": "^4.12.0",
+    "postcss-loader": "^3.0.0",
+    "sass": "^1.22.10",
+    "sass-loader": "^8.0.0",
+    "style-loader": "^1.0.0",
+    "twig-loader": "^0.5.1",
+    "webpack": "^4.39.3",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "twig": "^1.13.3",
+    "webpack-cli": "^3.3.7"
+  }
+}
