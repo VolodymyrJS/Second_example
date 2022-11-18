@@ -53,6 +53,6 @@
   },
   "dependencies": {
     "twig": "^1.13.3",
-    "webpack-cli": "^3.3.7"
+    "webpack-cli": "^3.3.12"
   }
 }
